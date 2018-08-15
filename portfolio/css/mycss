@@ -1,0 +1,28 @@
+.text-faded {
+  color: rgba(255, 255, 255, 0.7);
+}
+.map {
+  height: 30rem;
+}
+@media (max-width: 992px) {
+  .map {
+    height: 75%;
+  }
+}
+.map iframe {
+  pointer-events: none;
+}
+.callout {
+  padding: 15rem 0;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.callout h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  display: block;
+  max-width: 30rem;
+}
